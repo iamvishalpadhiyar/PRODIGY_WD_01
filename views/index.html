@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymBoy Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/3482424e3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="home">
+        <nav class="nav-head">
+            <h2>GymBoy Fitness</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#membership-plans">Membership</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="nav-menu">
+            <ul class="menu-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#membership-plans">Membership</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header-text">
+            <div class="overlay"></div>
+            <div class="mid-text">
+                <h2>Stronger Every Day, Inside and Out</h2>
+                <p>Empowering you to live a healthier, happier life, one workout at a time.</p>
+                <div>
+                    <a href="#membership-plans" class="header-btn">Get Started</a>
+                    <a href="#about" class="header-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Our Gym</h2>
+                <p>At GymBoy, we're dedicated to helping you achieve your fitness goals. Whether you're a beginner or a seasoned athlete, our state-of-the-art facilities and experienced trainers will support you every step of the way. We believe in creating a welcoming and motivating environment where everyone can thrive.</p>
+                <ul class="about-usps">
+                    <li>State-of-the-art equipment</li>
+                    <li>Personalized training plans</li>
+                    <li>Group classes for all levels</li>
+                    <li>Expert nutrition advice</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="img/about.avif" alt="About Our Gym">
+            </div>
+        </div>
+    </section>
+
+    <section id="membership-plans" class="membership-section">
+        <div class="container">
+            <h2>Membership Plans</h2>
+            <div class="plans">
+                <div class="plan">
+                    <h3>Basic Plan</h3>
+                    <p class="price">$19.99/month</p>
+                    <ul>
+                        <li>Access to all gym equipment</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Locker room access</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+                <div class="plan">
+                    <h3>Standard Plan</h3>
+                    <p class="price">$29.99/month</p>
+                    <ul>
+                        <li>Access to all gym equipment</li>
+                        <li>Group classes</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Locker room access</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+                <div class="plan">
+                    <h3>Premium Plan</h3>
+                    <p class="price">$49.99/month</p>
+                    <ul>
+                        <li>Access to all gym equipment</li>
+                        <li>Personal trainer</li>
+                        <li>Group classes</li>
+                        <li>Free Wi-Fi</li>
+                        <li>Locker room access</li>
+                    </ul>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-info" class="contact-info-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <p><strong>Address:</strong> 123 Fitness Lane, Gym City, GX 45678</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> gymboy-best@gmail.com</p>
+                <p><strong>Working Hours:</strong> Mon - Fri: 5am - 10pm, Sat - Sun: 6am - 8pm</p>
+                <div class="social-media">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" aria-label="Linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+            <div class="footer-text">
+                <p>&copy; 2024 GymBoy Fitness. All rights reserved.</p>
+            </div>
+    </footer>
+</body>
+</html>
