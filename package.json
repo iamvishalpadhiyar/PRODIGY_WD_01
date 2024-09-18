@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "text": "Landing Page"
   },
   "keywords": [],
   "author": "",
@@ -13,3 +14,4 @@
     "express": "^4.19.2"
   }
 }
+
